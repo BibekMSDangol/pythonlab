@@ -1,0 +1,1 @@
+'''#Price of a house is $1M. If a buyer'''
