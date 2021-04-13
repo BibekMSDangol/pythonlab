@@ -1,8 +1,7 @@
-'''Price of a house is $1M. If a buyer has good credit, they need to put down 10% otherwise they need to
-put down 20%. Print down the payment.'''
-price_of_house=1000000
-down_payment=input("choose if you have good credit or not?\n")
-if(down_payment=="good credit"):
-    print((f"the amount after good credit={10/100*1000000}"))
+''' Check wether the user input number is even or odd and display it to user.'''
+
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("The number is even")
 else:
-    print((f"the amount when you havenot any good credit is {20//100*1000000}"))
+   print("The number is odd")
