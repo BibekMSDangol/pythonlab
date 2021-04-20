@@ -4,7 +4,7 @@ root = Tk()
 
 root.title("Calculator")
 
-e = Entry(root, width=40, borderwidth=8)
+e = Entry(root, width=40)
 e.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
 def button_click(number):
